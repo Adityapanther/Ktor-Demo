@@ -33,5 +33,6 @@ dependencies {
     implementation("ch.qos.logback:logback-classic:$logback_version")
     implementation("ch.qos.logback:logback-classic:$logback_version")
     testImplementation("io.ktor:ktor-server-tests-jvm:$ktor_version")
+    implementation("com.ToxicBakery.library.bcrypt:bcrypt:1.0.9")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version")
 }
